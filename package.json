@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "babel src --out-dir public",
-    "serve": "lite-server --baseDir public"
+    "build": "babel src --out-dir public -w",
+    "serve": "lite-server --baseDir public",
+    "start": "yarn build & yarn serve"
   },
   "keywords": [],
   "author": "",

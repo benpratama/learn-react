@@ -1,0 +1,8 @@
+body {
+    background-color: antiquewhite;
+    margin:0
+}
+.heading {
+    color: coral;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
